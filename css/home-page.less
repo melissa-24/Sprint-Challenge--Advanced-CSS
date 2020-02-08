@@ -76,3 +76,35 @@
     }
   }
 }// home
+
+@media @phone {
+
+  .home {display: flex;
+      flex-direction: column;
+      max-width: 500px;
+
+        .space-images {display: flex;
+          flex-direction: columnl;
+        
+          .sky {display: none;}
+          .launch {display: none;}
+
+          .blast {align-self: center;
+            width: 100%;}
+
+        }
+
+        .walk {display: flex;
+          flex-direction: column-reverse;
+        
+          .walk-text {width: 100%;
+          
+            .btn {width: 100%;}
+          }
+        
+          .walk-img {width: 100%;}
+        
+        }
+
+  }
+}
