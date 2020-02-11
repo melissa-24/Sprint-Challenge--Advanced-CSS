@@ -1,0 +1,21 @@
+// Mixins Here
+
+.flexcolumn() {display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;}
+
+.flexrow() {display: flex;
+    flex-direction: row;
+    align-items: center;}
+
+.button(@justify, @align, @pad) {
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content: @justify;
+    align-items: @align;
+    font-size: 1.6rem;
+    width: 40%;
+    padding: @pad;
+    border-radius: 10%;}

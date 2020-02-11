@@ -133,3 +133,26 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Create a fixed navigation and add some opacity to the background
 
 * [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+
+
+My questions and answers
+
+1. What is the difference between an adaptive website and a fully responsive website?
+
+        A: Adaptive webistes need more updating as new screen sizes are available as they are only set to adapt to certain paramerteres.  A responsive webiste is made to work on any screen size
+
+2. Describe what it means to be mobile first vs desktop first.
+
+        A: Mobile first means that you built the website to work on a mobile device before you added media queries to respond to desktop.  Where Desktop first is just the oposite.
+
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+        A: It allows for more flexability of the font sixe regardelss of the end users browser settings.  This sets 1rem to 10px.
+
+4. How would you describe preprocessing to someone new to CSS?
+
+        A: Preprocessing is the ability to better organize the css code. Gives more options so you can type less in some cases buy using mixins or variables for things you might use often.
+
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+        A: My favorite now that I understand it better is actually the use of mixins and variables.  Although keeping track of what you have set in those isn't always easy but once used to it it does make typing the css much easier.  I like the idea of the @import but I do find it harder to work with as it requires more documents open so that I can keep track of what is on each.  But the hardest part for me is keeping track of the nesting that is going on..
